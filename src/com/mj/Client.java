@@ -1,4 +1,4 @@
-package com.mj;
+package src.com.mj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,9 +11,6 @@ public class Client {
     private Socket clientSocket;
     private PrintWriter out;
     private BufferedReader in;
-
-    public Client() {
-    }
 
     public Socket connect(String ip, int port) throws IOException {
         this.clientSocket = new Socket(ip, port);
