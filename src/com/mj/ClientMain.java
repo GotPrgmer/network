@@ -1,4 +1,4 @@
-package com.mj;
+package src.com.mj;
 
 import java.io.IOException;
 import java.net.Socket;
