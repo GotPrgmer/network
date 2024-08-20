@@ -1,4 +1,4 @@
-package src.com.mj;
+package com.mj.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
